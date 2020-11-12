@@ -21,6 +21,11 @@
                 actionType: adkit.ActionType.AUTO,
                 useCustomClose: true
             });
+            adkit.expand({
+                panelName: "skyViewabilityController",
+                actionType: adkit.ActionType.AUTO,
+                useCustomClose: true
+            });
 
             document.getElementById("clickthroughButton").addEventListener("click", function () {
                 EB.clickthrough();
@@ -35,7 +40,7 @@
 <body>
     <div id="ad">
         <button id="clickthroughButton" class="button"></button>
-        <img src="images/default.jpg" alt="Sizmek" />
+        <img src="images/backup.jpg" alt="Sizmek" />
     </div>
 </body>
 

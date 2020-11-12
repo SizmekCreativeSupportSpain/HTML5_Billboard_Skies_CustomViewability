@@ -32,6 +32,16 @@ define({
             "positionType": "bannerRelativePixels",
             "x": "-140",
             "y": "0"
+        },
+        {
+            "name": "skyViewabilityController",
+            "asset": "panels/skyViewabilityController.html",
+            "width": "100",
+            "height": "300",
+            "autoCollapse": "never",
+            "positionType": "bannerRelativePixels",
+            "x": "1000",
+            "y": "200"
         }
     ]
 });

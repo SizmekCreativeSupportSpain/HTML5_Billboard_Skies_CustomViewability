@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>skyViewabilityController</title>
+	<link rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="https://secure-ds.serving-sys.com/BurstingScript/adKit/adkit.js"></script>
+	<script>
+
+		function startAd() {
+			document.getElementById("clickthroughButton").addEventListener('click', function () {
+				EB.clickthrough("click_izq");
+			});
+		}
+
+		adkit.onReady(startAd);
+
+	</script>
+</head>
+
+<body>
+    <div id="skyViewController">
+	    <button id="clickthroughButton" class="button"></button>
+    </div>
+</body>
+
+</html>
